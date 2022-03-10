@@ -5,4 +5,4 @@
 - [/] Vizionář Tomáš Baťa Image: smaller (w-1/2)
 - [/] Big images: 80vh max-height
 - [x] Bigger padding all around the page
-- [ ] animation: 3 differents type (image 1, image 2, text)
+- [x] animation: 3 differents type (image 1, image 2, text)
