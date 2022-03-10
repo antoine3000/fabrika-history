@@ -1,5 +1,10 @@
 function animateFrom(elem, speed, direction) {
   direction = direction || 1;
+  if (window.matchMedia("(min-width: 600px)").matches) {
+    speed = speed;
+  } else {
+    speed = speed/3;
+  }
   var x = 0,
   y = direction * speed/2;
   if(elem.classList.contains("gs_reveal_fromLeft")) {
